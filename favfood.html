@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Favourite Foods 🍰</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #d8f3dc, #ffe4f0);
+    text-align: center;
+}
+
+/* TITLE */
+.main-title {
+    font-family:'Playfair Display', serif;
+    color:#333;
+    margin-top:20px;
+    font-size:28px;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size:16px;
+    color:#555;
+    font-style: italic;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to right, #ffcce6, #d8f3dc);
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 8px;
+    padding: 10px 15px;
+    background-color: #d8f3dc;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar a:hover {
+    background-color: #ff99cc;
+    color: white;
+}
+
+.active {
+    background-color: #ff99cc !important;
+    color: white !important;
+}
+
+/* ME */
+.me-wrap {
+    margin-top:15px;
+}
+
+.me-wrap img {
+    width:130px;
+    border-radius:20px;
+    border:4px solid #ff99cc;
+}
+
+.caption-me {
+    font-size:12px;
+    color:#666;
+    font-style: italic;
+}
+
+/* INTRO */
+.intro {
+    max-width:600px;
+    margin:25px auto;
+    background:rgba(255,255,255,0.6);
+    padding:15px;
+    border-radius:20px;
+    line-height:1.8;
+    color:#444;
+}
+
+/* 🌸 GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(255, 153, 204, 0.2);
+    border: 2px solid #ffe4f0;
+    transition: 0.3s;
+}
+
+.card:nth-child(2),
+.card:nth-child(4),
+.card:nth-child(6) {
+    margin-top: 0;
+}
+
+/* HOVER */
+.card:hover {
+    transform: translateY(-5px) scale(1.03);
+}
+
+/* IMAGE */
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* TEXT */
+.food-name {
+    margin-top:10px;
+    font-weight:bold;
+    color:#ff66b2;
+}
+
+.desc {
+    font-size:13px;
+    color:#555;
+    margin-top:8px;
+    line-height:1.6;
+}
+
+/* BUTTON */
+.btn {
+    display:inline-block;
+    margin:30px;
+    padding:12px 25px;
+    background:#ffcce6;
+    border-radius:25px;
+    text-decoration:none;
+    color:#333;
+}
+
+.btn:hover {
+    background:#ff99cc;
+    color:white;
+}
+
+/* FOOTER */
+footer {
+    background:#1f2933;
+    color:white;
+    padding:30px;
+    margin-top:40px;
+}
+
+footer img {
+    width:100px;
+    background:white;
+    padding:8px;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- TITLE -->
+<h1 class="main-title">
+Izni’s Things : Favourite Foods <br>
+<span class="subtitle">
+(A collection of foods that bring me comfort, happiness, and joy in my daily life.)
+</span>
+</h1>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">🌸 About</a>
+    <a href="family.html">👨‍👩‍👧 Family</a>
+    <a href="friends.html">💞 Friends</a>
+    <a href="favfood.html" class="active">🍰 Fav Food</a>
+    <a href="idol.html">⭐ Idol</a>
+    <a href="contact.html">❤️ Contact</a>
+</div>
+
+<!-- ME -->
+<div class="me-wrap">
+    <img src="gambar_website/me_food.jpg">
+    <div class="caption-me">This is me when I see food </div>
+</div>
+
+<!-- INTRO -->
+<p class="intro">
+Food is one of the happiest parts of my life. Every dish carries its own memory and comfort.  
+Here are some of my favourite foods that I truly enjoy.
+</p>
+
+<!-- 🌸 ZIGZAG GRID -->
+<div class="grid">
+
+<div class="card">
+<img src="gambar_website/gepuk.jpg">
+<div class="food-name">Nasi Ayam Gepuk 🍗</div>
+<div class="desc">
+I absolutely love this dish because of its crispy fried chicken combined with spicy sambal that gives a strong kick of flavour. 
+The balance between savoury and spicy makes it very addictive.
+</div>
+</div>
+
+<div class="card">
+<img src="gambar_website/kandar.jpg">
+<div class="food-name">Nasi Kandar 🍛</div>
+<div class="desc">
+Nasi Kandar is one of my all-time comfort foods because of its rich curry and variety of side dishes. 
+Mixing different gravies creates a unique flavour.
+</div>
+</div>
+
+<div class="card">
+<img src="gambar_website/sizzling.jpg">
+<div class="food-name">Mee Sizzling 🍜</div>
+<div class="desc">
+What makes this dish special is the sizzling hot plate when it is served. 
+The thick gravy and noodles blend perfectly.
+</div>
+</div>
+
+<div class="card">
+<img src="gambar_website/koeyteow.jpg">
+<div class="food-name">Char Koey Teow 🍤</div>
+<div class="desc">
+I really love the smoky flavour of Char Koey Teow that comes from cooking it over high heat. 
+It creates a rich and satisfying taste.
+</div>
+</div>
+
+<div class="card">
+<img src="gambar_website/spegeti.jpg">
+<div class="food-name">Spaghetti Bolognese 🍝</div>
+<div class="desc">
+This is my favourite western dish because of its rich tomato sauce and minced meat. 
+It is simple, comforting, and delicious.
+</div>
+</div>
+
+<div class="card">
+<img src="gambar_website/laksa.jpg">
+<div class="food-name">Laksa 🍜</div>
+<div class="desc">
+Laksa has a unique tangy and spicy flavour that makes it one of the most unforgettable Malaysian dishes for me.
+</div>
+</div>
+
+</div>
+
+<a href="index.html" class="btn">⬅ Back to Home</a>
+
+<footer>
+<img src="gambar_website/uitm.png">
+<p><b>Developed for IML254 – Introduction to Web Content Development</b></p>
+<p>Universiti Teknologi MARA (UiTM) Kedah Campus</p>
+<p><b>Nur Farah Izni Binti Kharuazman</b></p>
+<p>© 2026 Personal Website</p>
+<p style="font-size:12px; color:#aaa;">Last Updated: May 2026</p>
+</footer>
+
+</body>
+</html>

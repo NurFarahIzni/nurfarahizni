@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Farah Izni’s Website 🍓</title>
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #d8f3dc, #ffe4f0);
+        }
+        /* NAVBAR */
+        .navbar {
+            background-color: #ffcce6;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            margin: 8px;
+            padding: 10px 15px;
+            background-color: #d8f3dc;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #ff99cc;
+            color: white;
+        }
+        /* TITLE */
+        .title {
+            text-align: center;
+            color: #ff66b2;
+            margin-top: 30px;
+            font-size: 36px;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            animation: float 2s ease-in-out infinite alternate;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-6px); }
+        }
+        /* TYPEWRITER */
+        .typewriter {
+            text-align: center;
+            font-size: 28px;
+            font-family: 'Playfair Display', serif;
+            color: #ff66b2;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 3px solid #ff66b2;
+            width: fit-content;
+            margin: auto;
+            animation: typing 4s steps(40, end) forwards, blink 0.7s infinite;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+        /* BOX */
+        .box {
+            background: white;
+            margin: 30px;
+            padding: 30px;
+            border-radius: 25px;
+            box-shadow: 0 0 15px #ccc;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .profile {
+            width: 260px;
+            border-radius: 25px;
+            padding: 10px;
+            background: linear-gradient(45deg, #ff99cc, #d8f3dc);
+            box-shadow: 0 0 25px rgba(255, 153, 204, 0.7);
+        }
+        .profile:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+        .side-box {
+            background: #fff0f6;
+            padding: 20px;
+            border-radius: 20px;
+            width: 260px;
+            box-shadow: 0 0 10px #ffcce6;
+        }
+        .side-box h3 {
+            color: #ff66b2;
+        }
+        .intro {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            text-align: center;
+            font-size: 18px;
+            color: #444;
+        }
+        .content-text {
+            text-align: center;
+            line-height: 1.8;
+            padding: 0 20px;
+        }
+        .divider {
+            width: 60%;
+            height: 2px;
+            background: #ffcce6;
+            margin: 25px auto;
+        }
+        button {
+            background: linear-gradient(45deg, #ff99cc, #d8f3dc);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        /* FOOTER */
+        .footer {
+            background-color: #1f2933;
+            color: white;
+            padding: 40px;
+            margin: 30px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .footer img {
+            width: 120px;
+            background: white;
+            padding: 10px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+        .footer p {
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">🌸 About</a>
+    <a href="family.html">👨‍👩‍👧 Family</a>
+    <a href="friends.html">💞 Friends</a>
+    <a href="favfood.html">🍰 Fav Food</a>
+    <a href="idol.html">⭐ Idol</a>
+    <a href="contact.html">❤️ Contact</a>
+</div>
+
+<h1 class="title">Welcome to Farah Izni’s Website 🍓</h1>
+<h2 class="typewriter">Step into My Aesthetic World</h2>
+
+<p class="content-text">
+This website is created to share about myself, my journey, and my interests.
+Feel free to explore and enjoy the aesthetic experience.
+</p>
+
+<div class="divider"></div>
+
+<div class="box">
+    <div class="container">
+        <img src="gambar_website/farah.jpg" class="profile">
+        <div class="side-box">
+            <h3>Quick Info</h3>
+            <p><b>Name:</b> Nur Farah Izni Binti Kharuazman</p>
+            <p><b>Student ID:</b> 2024279646</p>
+            <p><b>Course:</b> IML 254</p>
+            <p><b>Class:</b> KCDIM1444E</p>
+            <p><b>Lecturer's Name:</b> Dr.Anum Shafeera Binti Amdan</p>
+            <p><b>University:</b> UiTM Kedah</p>
+            <h3>My Vibes</h3>
+            <p>Soft • Calm • Aesthetic</p>
+        </div>
+    </div>
+
+    <p class="intro">
+    Hi! My name is <b>Nur Farah Izni Binti Kharuazman</b> and I am currently a student at 
+    <b>Universiti Teknologi MARA (UiTM) Kedah Campus</b>.
+    </p>
+
+    <div class="divider"></div>
+
+    <p class="content-text">
+    I enjoy <b>soft aesthetic vibes</b> and love <b>creating cute and creative websites</b>.<br><br>
+    This website is part of my <b>learning journey in web content development</b>.<br><br>
+    The reason I chose <b>pastel pink and mint green</b> is because they represent calmness, 
+    softness, and positivity, creating a peaceful and aesthetic environment.
+    </p>
+
+    <div class="divider"></div>
+
+    <h2 style="text-align:center;">My Fav Quotes</h2>
+
+    <p class="intro" id="quoteText">
+    "Living softly and creating beautifully in my own way."
+    </p>
+
+    <button onclick="playSound(); changeQuote()">Change Quote</button>
+</div>
+
+<div class="footer">
+    <img src="gambar_website/uitm.png" class="profile">
+    <p><b>Developed for IML 254 - Introduction to Web Content Development</b></p>
+    <p>Universiti Teknologi MARA (UiTM) Kedah Campus</p>
+    <p><b>Nur Farah Izni Binti Kharuazman (2024279646)</b></p>
+    <p style="font-size:13px; color:#ccc;">
+    © 2026 All Rights Reserved | Personal Website Project
+    </p>
+    <p style="font-size:13px; color:#ccc;">
+    Last Updated: April 1, 2026
+    </p>
+</div>
+
+<audio id="typingSound">
+    <source src="https://assets.mixkit.co/sfx/preview/mixkit-typewriter-soft-clicks-1125.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function changeQuote() {
+    var quotes = [
+        "Living softly and creating beautifully in my own way.",
+        "A little progress is better than no progress at all.",
+        "Create something beautiful every day."
+    ];
+    var random = Math.floor(Math.random() * quotes.length);
+    document.getElementById("quoteText").innerHTML = '"' + quotes[random] + '"';
+}
+
+function playSound() {
+    document.getElementById("typingSound").play();
+}
+</script>
+
+</body>
+</html>

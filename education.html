@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Education 🎓</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffe4f0, #d8f3dc);
+}
+/* MAIN BOX */
+.container {
+    margin: 40px;
+    padding: 30px;
+    background: white;
+    border-radius: 25px;
+}
+/* TITLE */
+h1 {
+    text-align: center;
+    color: #ff66b2;
+}
+/* FLEX */
+.edu-flex {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.table-box { flex: 2; }
+.edu-image {
+    flex: 1;
+    text-align: center;
+}
+.edu-image img {
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid #ff99cc;
+}
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+th {
+    background: #ff99cc;
+    color: white;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+tr:nth-child(odd){background:#fff0f6;}
+tr:nth-child(even){background:#e6fff7;}
+tr:hover{background:#ffd6eb;}
+/* BOXES */
+.highlight, .reason-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #fff0f6, #e6fff7);
+    border-radius: 20px;
+}
+/* 🔥 FIX TEXT (ADD ON) */
+.highlight p {
+    text-align: justify;
+    line-height: 1.7;
+    word-wrap: break-word;
+}
+/* 🌸 LOGO SECTION */
+.school-logo-section {
+    margin-top: 20px;
+    text-align: center;
+}
+.school-logo-section h3 {
+    color: black; /* KEKAL HITAM */
+}
+/* 🔥 NEW HINT TEXT */
+.logo-hint {
+    font-size: 13px;
+    margin-top: 5px;
+    font-style: italic;
+}
+.logo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+.logo-grid img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 15px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.logo-grid img:hover {
+    transform: scale(1.1);
+}
+/* GALLERY */
+.school-gallery { margin-top:20px; }
+.school-gallery h3 {
+    color:#ff66b2;
+    text-align:center;
+}
+.gallery-grid {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    margin-top:15px;
+}
+.gallery-item {
+    background:white;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+.gallery-item img {
+    width:100%;
+    height:auto;
+    max-height:250px;
+    object-fit:contain;
+    border-radius:5px;
+}
+.caption {
+    margin-top:8px;
+    font-size:13px;
+    text-align:justify;
+}
+.caption b {
+    display:block;
+    color:black;
+    margin-bottom:5px;
+}
+.caption span {
+    font-size:12px;
+    color:#555;
+}
+/* BACK */
+.back {
+    text-align:center;
+    margin-top:20px;
+}
+.back a {
+    text-decoration:none;
+    background:#d8f3dc;
+    padding:10px 20px;
+    border-radius:20px;
+    color:black;
+}
+.back a:hover {
+    background:#ff99cc;
+    color:white;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>My Education 🎓</h1>
+
+<div class="edu-flex">
+<div class="table-box">
+
+<table>
+<tr>
+<th>Year</th>
+<th>School</th>
+<th>Place</th>
+<th>Achievement</th>
+</tr>
+<tr>
+<td>2011 - 2012</td>
+<td>Tadika Kemas</td>
+<td>Taman Wira</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>2013 - 2017</td>
+<td>Sekolah Kebangsaan Seri Perdana (SKSP)</td>
+<td>Alor Setar, Kedah</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>Sekolah Kebangsaan Tunku Raudzah (SKTR)</td>
+<td>Alor Setar Kedah</td>
+<td>UPSR: 2A 4B</td>
+</tr>
+<tr>
+<td>2019 - 2024</td>
+<td>Sekolah Menengah Kebangsaan Convent (SMKC)</td>
+<td>Alor Setar, Kedah</td>
+<td>SPM: 4A 3B 2C</td>
+</tr>
+<tr>
+<td>2025 - 2027</td>
+<td>UiTM Kedah</td>
+<td>Merbok</td>
+<td>CGPA: 3.57</td>
+</tr>
+</table>
+
+<div class="school-logo-section">
+<h3 style="color:#ff66b2;">My Schools 🏫</h3>
+
+<p class="logo-hint">
+<span style="color:#ff66b2; text-decoration: underline;">
+Click on each logo to explore the school background and its official song 🎶
+</span>
+</p>
+
+<div class="logo-grid">
+<a href="sksp.html"><img src="gambar_website/logo1.jpg"></a>
+<a href="sktr.html"><img src="gambar_website/logo2.jpg"></a>
+<a href="smkc.html"><img src="gambar_website/logo3.jpg"></a>
+<a href="uitm.html"><img src="gambar_website/logo4.jpg"></a>
+</div>
+
+<p style="text-align:center; margin-top:20px;">
+Here are the schools that shaped my journey and helped me grow into who I am today 💗
+</p>
+
+<p style="text-align:center; font-style:italic; color:#777;">
+“Education is the most powerful weapon which you can use to change the world.”
+</p>
+
+<p style="text-align:center; font-style:italic; color:#777;">
+“Education must win”
+</p>
+
+<p style="text-align:center; font-style:italic; color:#777;">
+“Priorities our study first”
+</p>
+
+</div>
+</div>
+
+<div class="edu-image">
+<img src="gambar_website/me.jpg">
+</div>
+
+</div>
+
+<div class="reason-box">
+<h3 style="color:#ff66b2;">My School Journey 💗</h3>
+<p>
+The reason I transferred to Sekolah Kebangsaan Tunku Raudzah was because my mother started working there as an administrative assistant. 
+This gave me the opportunity to continue my studies in a more comfortable and familiar environment. 
+It was also a meaningful experience as I had to adapt to a new school, meet new friends, and become more confident in myself.
+</p>
+</div>
+
+<div class="school-gallery">
+<h3>My School Memories 📸</h3>
+<div class="gallery-grid">
+
+<div class="gallery-item">
+<img src="gambar_website/school1.jpg">
+<p class="caption">
+<b>Figure 1: Excellent Achievement Award Day</b>
+<span>
+I received the Excellent Student Award in 2017 at Sekolah Kebangsaan Seri Perdana. I felt extremely happy and proud of my achievement because my dream of making my family and those around me proud had finally come true.
+</span>
+</p>
+</div>
+
+<div class="gallery-item">
+<img src="gambar_website/school2.jpg">
+<p class="caption">
+<b>Figure 2: School Prefect Appointment Ceremony</b>
+<span>
+I was honoured to be appointed as a school prefect at Sekolah Kebangsaan Tunku Raudzah in 2018. This recognition was presented by the Senior Assistant of Student Affairs, Puan Norasyikin Binti Mohd Jafri, together with other teachers.
+</span>
+</p>
+</div>
+
+<div class="gallery-item">
+<img src="gambar_website/school3.jpg">
+<p class="caption">
+<b>Figure 3: Beyond the Star</b>
+<span>
+During my time at Sekolah Menengah Kebangsaan Convent, I was ranked in the Top 30 and recognised as a “target student” in 2023 during Form 5. In this photo, I am with my classmates including my close friend Balqis, and our mentor teacher, Puan Azlina Binti Azizan.
+</span>
+</p>
+</div>
+
+</div>
+</div>
+
+<div class="highlight">
+<h3 style="color:#ff66b2;">My Journey at UiTM Kedah💗</h3>
+<p>
+Currently, I am pursuing my Diploma in Library Informatics at Universiti Teknologi MARA (UiTM) Kedah Branch. 
+This journey has helped me grow not only academically but also personally. I have learned how to manage information effectively, improve my digital and technical skills, and become more confident in completing tasks independently. 
+Throughout my studies, I have been exposed to various subjects related to information management, which has strengthened my interest in this field. 
+I am continuously working hard to improve myself and achieve better results in the future.
+</p>
+</div>
+
+<div class="back">
+<a href="about.html">⬅ Back to About</a>
+</div>
+
+</div>
+</body>
+</html>

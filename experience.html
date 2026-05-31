@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Experience 📸</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #d8f3dc, #ffe4f0, #fce1ff);
+        }
+
+        .header {
+            background: rgba(255,255,255,0.6);
+            backdrop-filter: blur(10px);
+            margin: 20px;
+            padding: 30px;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            background: linear-gradient(to right, #ff66b2, #a8e6cf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .desc-top {
+            max-width: 600px;
+            margin: auto;
+            font-size: 15px;
+            color: #777;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .experience-box {
+            margin: 30px;
+            padding: 25px;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 15px #ccc;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            gap: 20px;
+            transition: 0.3s;
+        }
+
+        /* ✨ HOVER WHOLE ROW */
+        .row:hover {
+            transform: scale(1.02);
+        }
+
+        .row img {
+            width: 200px;
+            border-radius: 20px;
+
+            /* 🌸 GLOW EFFECT */
+            box-shadow: 0 0 15px #ffb6d9;
+
+            /* ✨ SMOOTH EFFECT */
+            transition: all 0.4s ease;
+        }
+
+        /* 💖 IMAGE HOVER EFFECT */
+        .row img:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 25px #ff66b2;
+        }
+
+        .text {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .row:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .btn {
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            padding: 10px 20px;
+            background-color: #ffcce6;
+            border-radius: 20px;
+            text-decoration: none;
+            color: #333;
+            width: 180px;
+        }
+
+        .btn:hover {
+            background-color: #ff99cc;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>My Experience 📸✨</h1>
+        <hr style="width:60%; border:1px solid #ffcce6;">
+        <p class="subtitle">Moments that shaped me</p>
+        <p class="desc-top">
+            A collection of meaningful experiences that have helped me grow, learn,
+            and become a better version of myself 💗
+        </p>
+    </div>
+
+    <div class="container">
+
+        <div class="experience-box">
+
+            <!-- 1 -->
+            <div class="row">
+                <img src="gambar_website/experience1.jpg">
+                <div class="text">
+                    <b>Experience 1:</b> In 2018, I had the opportunity to represent my school in a netball competition. It was a truly meaningful and memorable experience where I learned the importance of teamwork, discipline, and effective communication. Competing with other schools helped me to build my confidence and develop both my physical and mental strength. I also learned how to stay focused under pressure and how to cooperate well with my teammates in order to achieve a common goal.
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="row">
+                <img src="gambar_website/experience2.jpg">
+                <div class="text">
+                    <b>Experience 2:</b> During the years 2022 to 2023, I participated in the Independence Marching Competition under the uniformed unit KASPA. This experience required a high level of discipline, commitment, and teamwork. We spent a lot of time practicing to achieve perfect coordination and synchronization as a team. Through this experience, I became more responsible, resilient, and confident in working within a structured group environment.
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="row">
+                <img src="gambar_website/experience3.jpg">
+                <div class="text">
+                    <b>Experience 3:</b> In 2023, I represented my school in a Bahasa Melayu debate competition held at Sekolah Menengah Kebangsaan Sultanah Bahiyah in Alor Setar. During the competition, my school, SMK Convent, represented the government side, while Sekolah Agama Darul Saadah acted as the opposition. This experience greatly enhanced my critical thinking skills, confidence, and ability to express ideas clearly and effectively in front of others.
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="row">
+                <img src="gambar_website/experience4.jpg">
+                <div class="text">
+                    <b>Experience 4:</b> During my second semester at UiTM Kedah, I represented my faculty in a netball competition for the Faculty Sports Event (SAF). Through strong teamwork, dedication, and continuous effort, my team successfully achieved second place in the competition. This experience strengthened my competitive spirit and taught me the importance of perseverance and teamwork.
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="row">
+                <img src="gambar_website/experience5.jpg">
+                <div class="text">
+                    <b>Experience 5:</b> During my second semester, I joined a volunteering program under the BRISK club known as “School Attack,” which was held at Sekolah Menengah Kebangsaan Bandar Sungai Petani (SEMEDAR). This experience allowed me to contribute to the community, interact with students, and develop a stronger sense of empathy and social responsibility. It was a very meaningful experience that gave me valuable life lessons.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <a href="about.html" class="btn">⬅ Back to About</a>
+
+</body>
+</html>

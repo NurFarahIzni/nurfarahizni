@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me 🍓</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #d8f3dc, #ffe4f0);
+}
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to right, #ffcce6, #d8f3dc);
+    padding: 15px;
+    text-align: center;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 8px;
+    padding: 10px 15px;
+    background-color: #d8f3dc;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
+}
+.navbar a:hover {
+    background-color: #ff99cc;
+    color: white;
+}
+.active {
+    background-color: #ff99cc !important;
+    color: white;
+}
+/* MAIN */
+.box {
+    background: linear-gradient(to right, #ffffff, #f0fff9);
+    margin: 40px;
+    padding: 30px;
+    border-radius: 25px;
+}
+.container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+.profile {
+    width: 220px;
+    border-radius: 20px;
+    border: 4px solid #ff99cc;
+}
+.left-col {
+    width: 260px;
+}
+.right-col {
+    flex: 1;
+    margin-left: -30px;
+}
+/* LEFT */
+.love-box, .mini-info, .vision-box {
+    margin-top: 15px;
+    background: linear-gradient(to right, #fff0f6, #e6fff7);
+    padding: 12px;
+    border-radius: 15px;
+}
+.love-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+}
+.love-grid div:nth-child(odd){background:#ffe4f0;}
+.love-grid div:nth-child(even){background:#d8f3dc;}
+.love-grid div {
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.side-img {
+    width: 70%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+/* HEADER */
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* 🔥 naik sikit */
+    width: 100%;
+    margin-bottom: 5px; /* 🔥 rapat dengan text */
+}
+.about-header h1 {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+.about-header .novel-box {
+    text-align: center;
+}
+.about-header img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #ff99cc;
+}
+/* CONTENT */
+.content {
+    max-width: 100%;
+}
+h1 {
+    color: #333;
+    font-style: italic;
+}
+h2 {
+    color: #ff66b2;
+}
+.typewriter {
+    line-height: 1.8;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+/* BUTTON */
+.btn {
+    background: #d8f3dc;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+.btn:hover {
+    background: #ff99cc;
+    color: white;
+}
+/* SKILLS */
+.skills-box {
+    border: 2px solid #b5ead7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.skills-box span {
+    float: right;
+}
+.bar {
+    width: 100%;
+    background: #eee;
+    height: 10px;
+    border-radius: 20px;
+}
+.html { width: 85%; background: #ff99cc; height:10px;}
+.css { width: 80%; background: #95e1d3; height:10px;}
+.js { width: 65%; background: #c7f9cc; height:10px;}
+.stars {
+    color: #ff99cc;
+}
+/* FOOTER */
+.footer {
+    background-color: #1f2933;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.footer img {
+    width: 100px;
+    background: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+</style>
+</head>
+<body>
+<!-- TITLE -->
+<h1 style="text-align:center;font-family:'Playfair Display', serif;color:#333;margin-top:20px;font-size:28px;font-style: italic;">
+Izni’s Things : About Me <br>
+<span style="font-size:16px; color:#555;">
+(A glimpse into my background, my story, and who I am becoming.)
+</span>
+</h1>
+<!-- NAVBAR -->
+<div class="navbar">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html" class="active">🌸 About</a>
+    <a href="family.html">👨‍👩‍👧 Family</a>
+    <a href="friends.html">💞 Friends</a>
+    <a href="favfood.html">🍰 Fav Food</a>
+    <a href="idol.html">⭐ Idol</a>
+    <a href="contact.html">❤️ Contact</a>
+</div>
+<div class="box">
+<div class="container">
+<!-- LEFT -->
+<div class="left-col">
+<img src="gambar_website/gambar2.jpg" class="profile">
+<div class="love-box">
+<h3>Things I Love 💗</h3>
+<div class="love-grid">
+<div>🌅 Sunsets</div>
+<div>🎧 Soft music</div>
+<div>🌊 Ocean breeze</div>
+</div>
+</div>
+<div class="mini-info">
+<p><b>Name:</b> Nur Farah Izni Binti Kharuazman</p>
+<p><b>Nickname:</b> Farah</p>
+<p><b>Age:</b> 20</p>
+<p><b>State:</b> Kedah Darul Aman</p>
+<p><b>Nationality:</b> Malaysia</p>
+<p><b>Gender:</b> Female</p>
+<p><b>Date of Birth:</b> 28 July 2006</p>
+<p><b>Religion:</b> Islam</p>
+<p><b>Course:</b> Library Informatics</p>
+</div>
+<div class="vision-box">
+<h3>My Vision 🌟</h3>
+<p>To become a knowledgeable individual in information management.</p>
+<h3>My Mission 🎯</h3>
+<p>• Improve skills • Stay creative • Achieve success</p>
+</div>
+<img src="gambar_website/book.jpg" class="side-img">
+</div>
+<!-- RIGHT -->
+<div class="right-col content">
+<div class="about-header">
+    <h1>About Me 🍓</h1>
+    <div class="novel-box">
+        <img src="gambar_website/novel.jpg">
+        <p style="font-size:12px; color:#666;">
+        My Little Reading Corner 📖🌸
+        </p>
+    </div>
+</div>
+I am currently a student pursuing a Diploma in Library Informatics under the Faculty of Information Management. 
+Since a young age, I have always been passionate about reading, especially novels, which gradually developed my interest in knowledge and information. 
+What began as a simple hobby has now grown into a meaningful academic journey where I learn how to manage, organise, and explore information effectively in today’s digital world.
+Throughout my studies, I have gained valuable knowledge and skills that help me understand the importance of information in our daily lives and how it can be used to benefit individuals and communities. 
+This course has also shaped me into a more responsible, organised, and detail-oriented person.
+As an individual, I would describe myself as calm, creative, and highly motivated. 
+I enjoy learning new things and continuously improving my skills, especially in digital design and web development. 
+I believe that every small step I take today plays an important role in shaping a better and more successful version of myself in the future.
+Despite the challenges I may face along the way, I always try my best to stay positive and keep moving forward. 
+With passion, consistency, and determination, I hope to continue growing, achieving my goals, and contributing positively to the field of information management.
+</p>
+<h2>Click here to explore more about me</h2>
+<div>
+<a href="education.html" class="btn">Education</a>
+<a href="hobby.html" class="btn">Hobby</a>
+<a href="experience.html" class="btn">Experience</a>
+</div>
+<h2>My Skills</h2>
+<div class="skills-box">
+<p><b>HTML</b> <span>85%</span></p>
+<div class="bar"><div class="html"></div></div>
+<div class="stars">★★★★★</div>
+<p><b>CSS</b> <span>80%</span></p>
+<div class="bar"><div class="css"></div></div>
+<div class="stars">★★★★☆</div>
+<p><b>JavaScript</b> <span>65%</span></p>
+<div class="bar"><div class="js"></div></div>
+<div class="stars">★★★☆☆</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- BACK BUTTON -->
+<div style="text-align:center;">
+    <a href="index.html" class="btn">⬅ Back to Home</a>
+</div>
+
+<div class="footer">
+<img src="gambar_website/uitm.png">
+<p><b>Developed for IML 254 - Introduction to Web Content Development</b></p>
+<p>Universiti Teknologi MARA (UiTM) Kedah Campus</p>
+<p><b>Nur Farah Izni Binti Kharuazman (2024279646)</b></p>
+<p>© 2026 Personal Website</p>
+<p style="font-size:12px; color:#ccc;">Last Updated: May 2026</p>
+</div>
+</body>
+</html> 
