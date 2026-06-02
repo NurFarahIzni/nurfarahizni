@@ -13,7 +13,7 @@ body {
 /* NAVBAR */
 .navbar {
     background: linear-gradient(to right, #ffcce6, #c7f9cc);
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -21,14 +21,15 @@ body {
 
 .navbar a {
     text-decoration: none;
-    margin: 8px;
+    margin: 8px 12px;
     padding: 10px 15px;
     background: #d8f3dc;
     border-radius: 20px;
     font-weight: bold;
     color: black;
     transition: 0.3s;
-    font-size: 14px;
+    font-size: 13px;
+    margin: 0;
 }
 .navbar a:hover {
     background-color: #ff99cc;
@@ -178,7 +179,19 @@ h2 {
     border-radius: 10px;
 }
   @media screen and (max-width: 768px){
+      .navbar {
+    gap: 5px;
+}
 
+.navbar a {
+    font-size: 12px;
+    padding: 7px 10px;
+}
+      h1 {
+        font-size: 20px !important;
+    }
+
+}
     .box{
         margin:15px;
         padding:20px;
