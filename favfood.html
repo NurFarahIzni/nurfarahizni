@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<meta charset="UTF-8">
+    
 <title>My Favourite Foods 🍰</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display&display=swap" rel="stylesheet">
@@ -32,16 +35,23 @@ body {
 .navbar {
     background: linear-gradient(to right, #ffcce6, #d8f3dc);
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    
 }
 
 .navbar a {
     text-decoration: none;
-    margin: 8px;
+    margin: 3px;
     padding: 10px 15px;
     background-color: #d8f3dc;
     border-radius: 20px;
     font-weight: bold;
     color: black;
+    transition:0.3s;
+    font-size:14px;
 }
 
 .navbar a:hover {
@@ -165,6 +175,28 @@ footer img {
     padding:8px;
     border-radius:10px;
 }
+@media screen and (max-width:768px){
+
+    .navbar a{
+        font-size:12px;
+        padding:7px 10px;
+        margin:2px;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .main-title{
+        font-size:22px;
+    }
+
+    .subtitle{
+        font-size:13px;
+    }
+
+}
 </style>
 </head>
 
@@ -266,8 +298,10 @@ Laksa has a unique tangy and spicy flavour that makes it one of the most unforge
 <p><b>Developed for IML254 – Introduction to Web Content Development</b></p>
 <p>Universiti Teknologi MARA (UiTM) Kedah Campus</p>
 <p><b>Nur Farah Izni Binti Kharuazman</b></p>
-<p>© 2026 Personal Website</p>
-<p style="font-size:12px; color:#aaa;">Last Updated: May 2026</p>
+<p style="font-size:12px; color:#aaa;">
+<p>© 2026 All Rights Reserved | Personal Website Project</p>
+<p style="font-size:13px; color:#ccc;">
+Last Updated: April 1, 2026</p>
 </footer>
 
 </body>
