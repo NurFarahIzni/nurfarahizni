@@ -20,7 +20,7 @@
 
             display: flex;
             flex-wrap: wrap;
-            text-align: center;
+            justify-content: center;
         }
         .navbar a {
             text-decoration: none;
@@ -140,8 +140,8 @@
             background-color: #1f2933;
             color: white;
             padding: 40px;
-            margin: 30px;
-            border-radius: 20px;
+            margin: 0px;
+            border-radius: 0px;
             text-align: center;
         }
         .footer img {
@@ -154,6 +154,24 @@
         .footer p {
             margin: 8px;
         }
+        @media screen and (max-width:768px){
+
+    .navbar{
+        justify-content:center;
+    }
+
+    .navbar a{
+        font-size:12px;
+        padding:8px 10px;
+        margin:4px;
+    }
+
+    .footer{
+        margin:0;
+        border-radius:0;
+    }
+
+}
     </style>
 </head>
 <body>
@@ -220,7 +238,7 @@ Feel free to explore and enjoy the aesthetic experience.
 </div>
 
 <div class="footer">
-    <img src="gambar_website/uitm.png" 
+    <img src="gambar_website/uitm.png">
         
     <p><b>Developed for IML 254 - Introduction to Web Content Development</b></p>
     <p>Universiti Teknologi MARA (UiTM) Kedah Campus</p>
