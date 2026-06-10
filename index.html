@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Farah Izni’s Website 🍓</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
@@ -172,16 +172,23 @@
         .footer p {
             margin: 8px;
         }
-        @media screen and (max-width:768px){
+    @media screen and (max-width:768px){
 
     .navbar{
-        justify-content:center;
+        display:flex;
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        justify-content:flex-start;
+        gap:5px;
+        padding:10px;
     }
 
     .navbar a{
+        white-space:nowrap;
         font-size:12px;
         padding:8px 10px;
-        margin:4px;
+        margin:0;
+        flex-shrink:0;
     }
 
     .footer{
